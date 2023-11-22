@@ -49,12 +49,12 @@ function checkWinner() {
 }
 
 function announceWinner(winner) {
-    alert(`Player ${winner} wins!`);
+    alert(`${winner} 승리!`);
     gameActive = false;
 }
 
 function announceDraw() {
-    alert('It\'s a draw!');
+    alert('무승부!');
     gameActive = false;
 }
 
